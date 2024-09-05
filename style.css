@@ -1,0 +1,75 @@
+body {
+    background-color: #013220;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('background.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #067d3d;
+    border-radius: 10px;
+    background-color: rgba(2, 77, 38, 0.9);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 24px; 
+}
+
+.form-control {
+    background-color: #0a4420;
+    color: white; /* Teks berwarna putih */
+    border: 1px solid #067d3d;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder berwarna putih dengan sedikit transparansi */
+}
+
+.form-control:focus {
+    border: 1px solid white;
+    background-color: #0a4420;
+    color: white; /* Pastikan teks tetap putih saat fokus */
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-success, .btn-danger {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-success {
+    background-color: #067d3d;
+    border-color: #067d3d;
+}
+
+.btn-success:hover {
+    background-color: #045d2b;
+    border-color: #045d2b;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #c9302c;
+}
